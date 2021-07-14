@@ -1,0 +1,17 @@
+{
+	"name": "jozicdaniel/ejercicio1",
+	"autoload": {
+		"psr-4": {
+			"Text\\": "src/"
+		},
+		"files":[
+			"src/helpers.php"
+		]
+	},
+	"require-dev": {
+		"phpunit/phpunit": "9"
+	},
+	"require": {
+		"guzzlehttp/guzzle": "^7.3"
+	}
+}
